@@ -76,4 +76,4 @@ The tag is purely for the side effect. The return value is always the input unch
 
 ## License
 
-MIT
+ICS
