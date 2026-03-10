@@ -1,5 +1,8 @@
 {
-  "author": "",
+  "author": {
+    "email": "misha.tavkhelidze@gmail.com",
+    "name": "Misha Tavkhelidze"
+  },
   "dependencies": {
     "@types/node": "^25.4.0",
     "typescript": "^5.9.3",
@@ -13,19 +16,23 @@
       "require": "./dist/tokidoki.cjs.js"
     }
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "keywords": [],
   "license": "ISC",
   "main": "./dist/tokidoki.cjs.js",
   "module": "./dist/tokidoki.es.js",
-  "name": "tokidoki",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+  "name": "@mtavkhelidze/tokidoki",
+  "repository": {
+    "url": "https://github.com/mtavkhelidze/tokidoki.git"
   },
   "scripts": {
     "build": "vite build && tsc --emitDeclarationOnly",
+    "prepack": "vite build && tsc --emitDeclarationOnly",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "prepack": "vite build && tsc --emitDeclarationOnly"
+    "test:watch": "vitest"
   },
   "type": "module",
   "types": "./dist/index.d.ts",

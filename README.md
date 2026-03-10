@@ -10,7 +10,7 @@ Logs a value with a tag, then returns it unchanged. Useful for inspecting values
 ## Install
 
 ```bash
-npm install github:mtavkhelidze/tokidoki
+npm install @mtavkhelidze/tokidoki
 ```
 
 ## Usage
