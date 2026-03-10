@@ -24,7 +24,8 @@
   "scripts": {
     "build": "vite build && tsc --emitDeclarationOnly",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepack": "vite build && tsc --emitDeclarationOnly"
   },
   "type": "module",
   "types": "./dist/index.d.ts",
