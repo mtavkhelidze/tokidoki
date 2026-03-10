@@ -18,6 +18,9 @@
   "main": "./dist/tokidoki.cjs.js",
   "module": "./dist/tokidoki.es.js",
   "name": "tokidoki",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "vite build && tsc --emitDeclarationOnly",
     "test": "vitest run",
