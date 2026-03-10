@@ -1,0 +1,29 @@
+{
+  "author": "",
+  "dependencies": {
+    "@types/node": "^25.4.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  },
+  "description": "Silent logger.",
+  "exports": {
+    ".": {
+      "import": "./dist/tokidoki.es.js",
+      "require": "./dist/tokidoki.cjs.js"
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "./dist/tokidoki.cjs.js",
+  "module": "./dist/tokidoki.es.js",
+  "name": "tokidoki",
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "version": "1.0.0"
+}
