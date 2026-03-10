@@ -3,13 +3,13 @@
     "email": "misha.tavkhelidze@gmail.com",
     "name": "Misha Tavkhelidze"
   },
-  "dependencies": {
+  "description": "Identity passthrough logger.",
+  "devDependencies": {
     "@types/node": "^25.4.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vitest": "^4.0.18"
   },
-  "description": "Silent logger.",
   "exports": {
     ".": {
       "import": "./dist/tokidoki.es.js",
@@ -36,6 +36,6 @@
     "test:watch": "vitest"
   },
   "type": "module",
-  "types": "./dist/index.d.ts",
-  "version": "1.0.1"
+  "types": "./dist/src/index.d.ts",
+  "version": "1.0.5"
 }

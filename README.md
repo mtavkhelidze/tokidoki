@@ -1,6 +1,6 @@
 # tokidoki : ときどき : sometimes
+_tokidoki_ — A tagged logging identity function for debugging pipelines.
 
-> _tokidoki_ — a tagged identity function for debugging pipelines
 ```typescript
 tokidoki :: String -> a -> a
 ```

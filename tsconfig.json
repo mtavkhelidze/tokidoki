@@ -2,7 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "./dist",
-    "rootDir": ".",
+    "rootDir": "./src",
     "lib": [
       "ES2015"
     ],
